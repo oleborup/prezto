@@ -6,14 +6,11 @@
 #
 
 # Source Prezto.
-if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
-  source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
-fi
+#if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
+#  source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
+#fi
 
-
+source  ~/powerlevel9k/powerlevel9k.zsh-theme
 
 # Customize to your needs...
-setopt no_share_history
-unsetopt share_history
 source $HOME/.profile
-alias mvnq='mvn -Dfindbugs.skip=true'
